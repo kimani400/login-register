@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("lastone.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+img{
+    width: 30%;
+    border-radius: 50%;
+    content: center;
+}
+.main{
+    margin-left: 50%;
+}
+.content{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 50px;
+    width: auto;
+    height: auto;
+    margin-top: 1%;
+}
+/*.content{
+
+
+}*/
+h1,p{
+    text-align: center;
+    right: 40%;
+}
+.header{
+    width: 1200px;
+    height: auto;
+    background-color: rgb(7, 25, 226);
+    margin-top: 1%;
+    color: whitesmoke;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.circle img{
+    align-content: center;
+
+}
+.circle{
+    margin-top: 1%;
+    margin-left: 43%;
+    position: relative;
+    border: rgb(38, 11, 211);
+    position: center;
+}
+li{
+    background-color: rgba(238, 215, 13, 0.953);
+    text-align: center;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 160px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-radius: 0px;
+    transition: 0.5s;
+    list-style-type: none;
+    transform: rotate(2px);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 10px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(38, 16, 237);
+    transform: translateY(0.9);
+    box-shadow: 2px rgb(167, 167, 174);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    list-style-type: none;
+    text-decoration: none;
+}
+.a{
+    margin-top: 1%;
+}
+.con{
+    float: right;
+    background-color: beige;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    margin-top: 1%;
+}
+.second{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    margin-left: 40%;
+}
+.man{
+    display: inline-block;
+    width: 1100px;
+    color: rgb(213, 9, 9);
+    margin-top: 10%;
+    background-color: darkgreen;
+    border-radius: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 10px;
+}
+.circle p{
+    text-align: center;
+}
+.button{
+    position: relativet;
+    text-align: center;
+    width: fit-content;
+    padding: 20px;
+    font-size: 20px;
+    color: #15f4ee;
+    font-family: poppins;
+    font-weight: 300;
+    border: 5px solid #15f4ee;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    cursor: pointer;
+    border-radius: 100px;
+    transform: 1.5s;
+    margin-bottom: 0%;
+    margin: 0 auto;
+    padding: 0 3rem;
+    
+}
+.button:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 2rem;
+    text-align: center;
+
+}

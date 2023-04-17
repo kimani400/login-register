@@ -1,0 +1,101 @@
+body {
+    background: linear-gradient(45deg, #FC466B, #3F5EFB);
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .container {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+  }
+  form {
+    background: white;
+    padding: 3em;
+    height: 600px;
+    border-radius: 20px;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    text-align: left;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    
+  }  
+
+  text {
+    font-weight: 500;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  }
+
+  input {
+    background: transparent;
+    width: 200px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    color: rgb(19, 8, 8);
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  } 
+  form text{
+      text-align: left;
+  }
+  .select {
+      padding: 8px 12px;
+      color: rgb(21, 66, 214);
+      background-color: rgb(247, 14, 247);
+      border-color: 1px solid white;
+      cursor: pointer;
+      border-radius: 5px;
+      align-items: right;
+  }
+  h1 {
+      text-align: center;
+      font-style: oblique;
+      color:  rgb(187, 6, 187);
+      
+  }
+
+  .btn {
+      align-content: center;
+      padding: 8px 12px;
+      color: rgb(21, 66, 214);
+      background-color: rgb(247, 14, 247);
+      border-color: 1px solid white;
+      cursor: pointer;
+      border-radius: 5px;
+      align-items: right;
+      font-size: larger;
+      font-family: 'Times New Roman', Times, serif;
+
+  }
+
+  :focus {
+    background: rgba(255,255,255,0.1);
+    box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+  }
+  :hover {
+    background: rgba(255,255,255,0.1);
+    box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+  }
+
+[type="button"] {
+  margin-top: 10px;
+  width: 150px;
+  font-size: 1rem;
+}

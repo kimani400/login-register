@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("images/conta.jpeg");
+}
+body { 
+    background-image: url("images/backgroung.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  body{
+    background-color: #efefeF;
+    font-family: sans-serif;
+  }
+  .contact-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 13%;
+    left: 55%;
+    transform: translate(-50. -50%);
+    position: absolute;
+    border-radius: 10%;
+    border:#47c35a;
+  }
+  .contact-box h2{
+    text-align: center;
+    color: rgb(132, 1, 28);
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 70%;
+  }
+  form{
+    margin: 35px;
+  }
+  .input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+  }
+  .textarea-field{
+    height: 150px;
+    padding-top: 10px;
+  }
+  .btn{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 2px;
+    margin-right: 4%;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: rgb(129, 4, 4);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 10px;
+}
+.nav-area li a:hover{
+  cursor: pointer;
+  color: rgb(3, 12, 192);
+  background-color: hsla(199, 83%, 63%, 0.884);
+  transform: translateY(0.9);
+  box-shadow: 2px rgb(167, 167, 174);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+ a:hover{
+  cursor: pointer;
+  color: aliceblue;
+  background-color: rgb(57, 101, 181);
+  transform: translateY(0.9);
+  box-shadow: 2px rgb(167, 167, 174);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+a:hover{
+  transition: all 400ms ease-in-out;
+}
+.wraper{
+    width: 500px;
+    height: 250px;
+}
+
+img{
+  display: block;
+  margin-left: 12%;
+  width: 5%;
+  margin-top: 2%;
+  color: lightpink;
+  border-radius: 20%;
+}
+a{
+  text-decoration: none;
+}
+.email{
+  margin: left;
+  width: fit-content;
+  margin-left: 10%;
+  color: rgb(132, 1, 27);
+}
+.facebook{
+  margin: left;
+  width: fit-content;
+  margin-left: 10%;
+  color: rgb(132, 1, 27);
+}
+.telegram{
+  margin: left;
+  width: fit-content;
+  margin-left: 10.5%;
+  color: rgb(132, 1, 27);
+}
+.whatsap{
+  margin: left;
+  width: fit-content;
+  margin-left: 10%;
+  color: rgb(132, 1, 27);
+}
+.youtube{
+  margin: left;
+  width: fit-content;
+  margin-left: 8.5%;
+  color: rgb(132, 1, 27);
+}
+@media only screen and (max-width:800px){
+  ul{
+      position: absolute; 
+      width: 100%;
+      left: 0;
+      top: 70px;
+  }
+  ul li{
+      display: block;
+      float: left;
+      margin-bottom: 10px;
+  }
+}
+.header{
+  margin-left: 4%;
+  color: rgb(121, 3, 21);
+  margin-top: 1%;
+  opacity: 60%;
+}

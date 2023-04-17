@@ -1,0 +1,10 @@
+img{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+li{
+    display: inline;
+    padding-left: 10px;
+    text-decoration: none;
+}
